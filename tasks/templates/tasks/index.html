@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Task Analyzer</title>
+    <link rel="stylesheet" href="{% static 'tasks/styles.css' %}">
+</head>
+<body>
+    <h2>Smart Task Analyzer</h2>
+
+    <div class="container">
+        <!-- Input Section -->
+        <div class="input-section">
+            <h3>Enter Tasks (JSON Format)</h3>
+            <textarea id="taskInput" placeholder='Paste your JSON here, e.g., [{"title":"Fix login","due_date":"2025-12-01","estimated_hours":3,"importance":8,"dependencies":[]}]'></textarea>
+            <button id="analyzeBtn">Analyze Tasks</button>
+
+            <label>Sorting Strategy:</label>
+            <select id="strategySelect">
+                <option value="default">Smart Balance (Default)</option>
+                <option value="fastest">Fastest Wins</option>
+                <option value="important">High Impact</option>
+                <option value="deadline">Deadline Driven</option>
+            </select>
+        </div>
+
+        <!-- Output Section -->
+        <div class="output-section">
+            <h3>Results</h3>
+            <div id="results"></div>
+        </div>
+    </div>
+
+    <script src="{% static 'tasks/script.js' %}"></script>
+</body>
+</html>
