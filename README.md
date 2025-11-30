@@ -14,4 +14,4 @@ The total time spent on this assignment was approximately five hours, distribute
 
 This project demonstrates a combination of algorithmic thinking, problem-solving, clean coding practices, and practical frontend-backend integration in Python and Django. It is intended to showcase the ability to translate requirements into a functional application with clear documentation and maintainable code.
 
-![Smart Task Analyzer Screenshot](assests\ss1.png)
+![Smart Task Analyzer Screenshot](assests/ss1.png)
