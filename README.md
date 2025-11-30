@@ -13,3 +13,5 @@ During development, design decisions focused on simplicity and usability. The fr
 The total time spent on this assignment was approximately five hours, distributed across backend setup, algorithm development, API and URL routing, frontend creation, and debugging. With more time, the project could be enhanced by detecting circular dependencies, accounting for weekends and holidays in urgency calculation, adding an Eisenhower Matrix visualization, implementing a learning system for algorithm feedback, and expanding unit tests to cover frontend interactions.
 
 This project demonstrates a combination of algorithmic thinking, problem-solving, clean coding practices, and practical frontend-backend integration in Python and Django. It is intended to showcase the ability to translate requirements into a functional application with clear documentation and maintainable code.
+
+![Smart Task Analyzer Screenshot](assests\ss1.png)
